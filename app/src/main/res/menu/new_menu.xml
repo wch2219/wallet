@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<group-->
+        <!--android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/history"-->
+            <!--android:icon="@mipmap/icon_history"-->
+            <!--android:checkable="true"-->
+            <!--android:title="@string/incomemenu"/>-->
+
+    <!--</group>-->
+    <item
+        android:id="@+id/realname"
+        android:icon="@mipmap/real_name"
+        android:title="@string/realnamemenu"/>
+    <!--<item-->
+        <!--android:id="@+id/bankcart"-->
+        <!--android:icon="@mipmap/icon_banks"-->
+
+        <!--android:title="@string/bankmanagemenu"/>-->
+    <item
+        android:id="@+id/recomm"
+        android:icon="@mipmap/icon_recom"
+
+        android:title="@string/recommmenu"/>
+    <item
+        android:id="@+id/sett"
+        android:icon="@mipmap/icon_sett"
+        android:title="@string/settmenu"/>
+    <item
+        android:id="@+id/exit"
+        android:icon="@mipmap/icon_exit"
+        android:title="@string/exitmenu"/>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/normal_10dp"
+        android:textColor="@color/black_text"
+        android:text="@string/paypwdwindowhint"
+        />
+    <com.hjzn.wallet.weight.PswInputView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dp_20"
+        android:layout_height="@dimen/normal_40dp"
+        android:id="@+id/pay_pwd"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TextView
+            android:id="@+id/tv_forgetpaypwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blueviolet"
+            android:text="@string/forgetpaypwd"
+            android:padding="@dimen/normal_10dp"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
