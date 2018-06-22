@@ -125,8 +125,10 @@ public class MainActivity extends BaseActivity {
             }
         });
         tvTitle.setText(R.string.title);
-        banners.add(R.mipmap.icon_homebanner1);
-        banners.add(R.mipmap.iocn_homebanner2);
+        banners.add(R.mipmap.banner1);
+        banners.add(R.mipmap.banner2);
+        banners.add(R.mipmap.banner3);
+        banners.add(R.mipmap.banner4);
         SetBanner.startBanner(ctx,banner,banners);
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION,

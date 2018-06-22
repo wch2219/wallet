@@ -2,7 +2,6 @@ package com.hjzn.wallet;
 
 import android.app.Application;
 import android.content.Context;
-import android.support.multidex.MultiDex;
 
 import com.hjzn.wallet.model.LoginBean;
 import com.hjzn.wallet.model.UserInfo;
@@ -34,12 +33,12 @@ public class MyApplication extends Application {
 
     }
 
-    @Override
-    protected void attachBaseContext(Context base) {
-        super.attachBaseContext(base);
-        // you must install multiDex whatever tinker is installed!
-        MultiDex.install(base);
-        // 安装tinker
-        Beta.installTinker();
-    }
+//    @Override
+//    protected void attachBaseContext(Context base) {
+//        super.attachBaseContext(base);
+//        // you must install multiDex whatever tinker is installed!
+//        MultiDex.install(base);
+//        // 安装tinker
+//        Beta.installTinker();
+//    }
 }

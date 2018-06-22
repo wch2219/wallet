@@ -3,9 +3,9 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         release {
-            keyAlias 'hjwallet'
+            keyAlias 'wallet'
             keyPassword '123456'
-            storeFile file('D:/androidcode/hjwallet/hjwallet.jks')
+            storeFile file('D:/androidcode/wallet/wallet.jks')
             storePassword '123456'
         }
     }
@@ -21,27 +21,17 @@ android {
             // 设置支持的SO库架构
             abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
         }
-        multiDexEnabled true
+
     }
-    dexOptions{
-        jumboMode = true
-    }
+
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
         }
         debug {
             signingConfig signingConfigs.release
-        }
-        mybuildType {
-            debuggable false
-            jniDebuggable false
-            signingConfig signingConfigs.release
-            renderscriptDebuggable false
-            minifyEnabled false
-            zipAlignEnabled true
         }
     }
     sourceSets {
@@ -76,10 +66,9 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     implementation 'com.android.support:cardview-v7:+'
     implementation 'com.github.bumptech.glide:glide:4.7.1'
-        implementation 'com.tencent.bugly:crashreport_upgrade:latest.release'
-        //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
-        implementation 'com.tencent.bugly:nativecrashreport:latest.release'
-        //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如1.2.0
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
     //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
     implementation 'com.youth.banner:banner:1.4.9'
     compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
