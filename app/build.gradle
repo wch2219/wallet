@@ -14,7 +14,7 @@ android {
         applicationId "com.hjzn.wallet"
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 3
+        versionCode 5
         versionName "1.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
@@ -43,10 +43,9 @@ android {
         abortOnError false
     }
 }
-
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'

@@ -243,7 +243,7 @@ public class MainActivity extends BaseActivity {
             tvRate.setText(userInfo.getData().getGsc_return_speed()+"");
             tvYejinum.setText(userInfo.getData().getIntegration()+"");
             tvVip.setText(userInfo.getData().getRegion());
-            tvPrice.setText(userInfo.getData().getBj()+"");
+//            tvPrice.setText(userInfo.getData().getBj()+"");
             tvTotalnum.setDuration(2000);
             tvTotalnum.setNumberWithAnim((float) userInfo.getData().getHold_gsc_num());
             tvTotalnum.setAnimInterpolator(new AccelerateInterpolator());
@@ -263,7 +263,6 @@ public class MainActivity extends BaseActivity {
                         handler.sendEmptyMessage(0);
                         SystemClock.sleep(20);
                 }
-
             }
         }.start();
     }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RD SILK</string>
-    <string name="title">RD国际交易所</string>
+    <string name="app_name">DOTBIT EX</string>
+    <string name="title">DOTBIT国际交易所</string>
     <string name="bannertitle">股权众筹计划</string>
-    <string name="totalGSC">总GSC</string>
-    <string name="usableGSc">可提GSC</string>
+    <string name="totalGSC">总DOTC</string>
+    <string name="usableGSc">可提DOTC</string>
     <string name="realtimeprice">实时价格</string>
     <string name="shareholdernumber">股东编号</string>
     <string name="login">登录</string>
@@ -62,6 +62,7 @@
     <string name="add_bank_card_num_hint">银行卡号：</string>
     <string name="add_bank_card_phone_hint">开户行：</string>
     <string name="add_bank_card_name_hint">开户行：</string>
+    <string name="bankmanage">银行卡管理</string>
     <string name="confirm">确定</string>
     <string name="close">取消</string>
     <string name="deleteBank">删除银行卡</string>

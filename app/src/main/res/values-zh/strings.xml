@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RD SILK</string>
-    <string name="title">RD国际交易所</string>
+    <string name="app_name">Dotbit Ex</string>
+    <string name="title">DOTBIT国际交易所</string>
     <string name="bannertitle">股权众筹计划</string>
-    <string name="totalGSC">总GSC</string>
-    <string name="usableGSc">可提GSC</string>
+    <string name="totalGSC">总DOTC</string>
+    <string name="usableGSc">可提DOTC</string>
     <string name="realtimeprice">实时价格</string>
     <string name="shareholdernumber">股东编号</string>
     <string name="login">登录</string>

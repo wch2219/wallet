@@ -48,7 +48,6 @@ public abstract class BaseActivity<V,T extends Presenter<V>> extends AppCompatAc
     public ImmersionBar immersionBar;
     public Unbinder unbinder;
     public Gson gson;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

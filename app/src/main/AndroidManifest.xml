@@ -47,7 +47,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            >
 
         </activity>
         <activity android:name=".activity.LauncherActivity">
@@ -56,21 +58,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ForgetActivity" />
-        <activity android:name=".activity.LoginActivity" />
-        <activity android:name=".activity.PhoneVerActivity" />
-        <activity android:name=".activity.RegisterActivity" />
-        <activity android:name=".activity.ResetPwdActivity" />
-        <activity android:name=".activity.SetPwdActivity" />
-        <activity android:name=".activity.MenMoneyActivity" />
-        <activity android:name=".activity.PersionActivity" />
-        <activity android:name=".activity.SettingActivity" />
-        <activity android:name=".activity.ChangeLoginPwdActivity" />
-        <activity android:name=".activity.ChangePayPwdActivity" />
-        <activity android:name=".activity.BankListActivity" />
-        <activity android:name=".activity.AddBankActivity" />
-        <activity android:name=".activity.RealNameActivity" />
-        <activity android:name=".activity.RecomActivity" />
-        <activity android:name=".activity.WipDepActivity"></activity>
+        <activity android:name=".activity.ForgetActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.PhoneVerActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.ResetPwdActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.SetPwdActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MenMoneyActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.PersionActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.ChangeLoginPwdActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.ChangePayPwdActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.BankListActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.AddBankActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.RealNameActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.RecomActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.WipDepActivity"
+            android:screenOrientation="portrait"
+            ></activity>
     </application>
 </manifest>

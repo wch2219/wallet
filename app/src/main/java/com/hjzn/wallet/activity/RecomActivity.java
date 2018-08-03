@@ -72,7 +72,7 @@ public class RecomActivity extends BaseActivity {
             Toast.makeText(ctx, "您当前还未获得推荐资格", Toast.LENGTH_SHORT).show();
             return;
         }
-        final String content = "RD国际交易所，诚邀您的加入，https://www.pgyer.com/zws3，点击链接下载应用，快快加入吧！我的邀请码是：" + MyApplication.userInfo.getData().getRegion();
+        final String content = "DOTBIT国际交易所，诚邀您的加入，https://www.pgyer.com/BwAT，点击链接下载应用，快快加入吧！我的邀请码是：" + MyApplication.userInfo.getData().getRegion();
         switch (view.getId()) {
             case R.id.ll_shareqq:
                 mShare.shareQQFriend("分享给好友", content, AndroidShare.TEXT, (Bitmap) null);
